@@ -1,0 +1,49 @@
+.dashboard {
+    display: flex;
+    flex-direction: column; /* Display components in a column */
+    height: 100lvh;
+  }
+  
+  
+  
+  .dashboard-main {
+    flex: 1;
+    display: flex;
+    flex-direction: row; /* Display navigation and content side by side */
+  }
+  
+  .dashboard-nav {
+    background-color: #010741;
+    color: white;
+    width: 200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; /* Display navigation items vertically */
+  }
+  
+  .dashboard-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard-nav li {
+    cursor: pointer;
+    margin: 2rem 0;
+    display: flex;
+    margin-left: 10px;
+    align-items: center; /* Center icons vertically with the text */
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 2rem;
+  }
+
+  .icon-text {
+    margin-left: 15px; 
+  }
+
+  
+  
+  /* Add more CSS for styling your dashboard components as needed */
+  

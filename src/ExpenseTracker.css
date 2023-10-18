@@ -1,0 +1,40 @@
+/* ExpenseTracker.css */
+
+.expense-tracker {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+     /* border: 1px solid hsl(0, 0%, 80%);  */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+  }
+ 
+  
+  .rupee-logo {
+    margin-right: 20px;
+  }
+  
+  .rupee-logo img {
+    width: 50px;
+    height: auto;
+  }
+  
+  .total-expense h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .total-expense p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .para{
+    font-size: small;
+  }
+
+  .customer{
+    text-align: center;
+    font-size: small;
+  }

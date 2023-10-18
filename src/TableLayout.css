@@ -1,0 +1,48 @@
+/* TableLayout.css */
+
+.table-layout {
+    display: flex;
+    width: 100%;
+    margin-left: 25px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+ 
+  .column-right{
+margin-left: 20px;
+  }
+  
+  .data-table th, .data-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #f2f2f2;
+  }
+  .sell{
+    text-align: left;
+  }
+  .bold
+  {
+text-align: left;
+  }
+  .column{
+    margin-left: 10px;
+  }
+  .searchline{
+   text-align: right;
+  }
+  .sale{
+    margin-left: 180px;
+    padding-bottom: 15px;
+  }

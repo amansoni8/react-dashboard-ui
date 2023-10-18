@@ -1,0 +1,22 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Set the dashboard height to 100% of the viewport height */
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #010741;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  height: 110vh;
+  align-items: flex-start;
+}
+
+.main-content {
+  flex: 1; /* Take up remaining horizontal space */
+  padding: 20px;
+  
+}

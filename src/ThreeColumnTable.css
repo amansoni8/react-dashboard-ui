@@ -1,0 +1,21 @@
+/* ThreeColumnTable.css */
+
+.table-container {
+    /* display: flex; */
+    justify-content: center; /* Center the table horizontally */
+    margin-left: 25px;
+   
+  }
+  
+  
+  .three-column-table td {
+    /* border: 1px solid #ccc; */
+    padding: 0px;
+    text-align: center;
+    width: 25%; /* Divide the table into equal columns */
+  }
+  .hello{
+    text-align: left;
+    padding-left: 28px;
+  }
+  

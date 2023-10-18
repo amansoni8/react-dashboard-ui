@@ -1,0 +1,30 @@
+/* Activity.css */
+
+.activity-container {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .activity-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .activity-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .activity-details {
+    flex: 2;
+  }
+  
+  .activity-details h2 {
+    margin: 0 0 10px 0;
+  }
+  

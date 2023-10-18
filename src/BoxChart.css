@@ -1,0 +1,86 @@
+.barcontainer {
+    position: relative;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 15vw;
+    max-height: 50vw;
+    min-width: 40%;
+    max-width: 100%;
+    z-index: 1;
+  }
+  
+  .barcontainerheader {
+    display: inline;
+    position: absolute;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    background: #faf8f8;
+    border-bottom: 3px solid black;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 0 black;
+    z-index: 0;
+  }
+  
+  .bar {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    border: 1px solid rgb(218, 209, 209);
+    border-radius: 12px 12px 12px 12px;
+    background: #f9f5f5;
+    width: 7%;
+    text-align: center;
+    color: rgb(8, 127, 202);
+    text-shadow: 1px 1px 0 black;
+    box-shadow: 4px 0 8px #888;
+    
+  }
+  
+  .barlabel {
+    position: absolute;
+    border-top: 2px solid black;
+    background: #888;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 1px 0px black;
+    color: rgb(167, 16, 16);
+   
+  }
+  .view{
+   text-align: left;
+   font-size: small;
+  }
+  
+  .bar:nth-child(2) {
+    left: 5%;
+  }
+  
+  .bar:nth-child(3) {
+    left: 20%;
+  }
+  
+  .bar:nth-child(4) {
+    left: 35%;
+    color: dodgerblue;
+    
+  }
+  
+  .bar:nth-child(5) {
+    left: 50%;
+    background: dodgerblue;
+    box-shadow: none;
+  }
+  
+  .bar:nth-child(6) {
+    left: 65%;
+  }
+  
+  .bar:nth-child(7) {
+    left: 80%;
+  }
